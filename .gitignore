@@ -1,0 +1,22 @@
+.DS_Store
+Thumbs.db
+db.json
+*.log
+node_modules/
+public/
+.deploy*/
+_multiconfig.yml
+
+# IDE
+.idea/
+
+# Theme configs (aurora is the active one, tracked separately)
+_config.butterfly.yml
+_config.landscape.yml
+_config.obsidian.yml
+
+# Aurora theme (installed via npm, not tracked)
+themes/aurora/
+
+# yarn lock (project uses npm/package-lock.json)
+yarn.lock
