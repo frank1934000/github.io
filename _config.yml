@@ -22,7 +22,7 @@ timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://frank1934000.github.io
+url: https://frank-blog.dev
 root: /
 permalink: /post/:name/
 permalink_defaults:
@@ -169,20 +169,21 @@ robotstxt:
   allow:
     - /
   sitemap:
-    - https://frank1934000.github.io/sitemap.xml
-    - https://frank1934000.github.io/baidusitemap.xml
+    - https://frank-blog.dev/sitemap.xml
+    - https://frank-blog.dev/baidusitemap.xml
 
 
 # Baidu sitemap
 baidusitemap:
   path: baidusitemap.xml
-  url: https://frank1934000.github.io/
+  url: https://frank-blog.dev/
 
 # 外链自动加 nofollow（保留白名单）
 nofollow:
   enable: true
   field: site
   exclude:
+    - frank-blog.dev
     - frank1934000.github.io
     - github.com/frank1934000
 
