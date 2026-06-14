@@ -81,10 +81,6 @@ menu:
       cn: 'GitHub'
       zh-CN: 'GitHub'
       en: 'GitHub'
-    i18n:
-      cn: 'Mail Me'
-      zh-CN: 'Mail Me'
-      en: 'Mail Me'
 #  Contact:
 #    name: 'Contact'
 #    i18n:
